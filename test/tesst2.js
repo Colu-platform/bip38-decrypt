@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var bip38Decrypt = require(__dirname +  "/../lib/bip38-decrypt.js");
+var bip38Decrypt = require('bip38Decrypt');
 
 var encryptedPrivKey = '6PYUpKnHqAAzWSbjJCPwgB5wWnyYipmhqMysLDstE7H2gn9Pp8vtZrvNeS';
 var password = 'mozqswji00';
