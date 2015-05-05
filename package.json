@@ -1,0 +1,25 @@
+{
+  "name": "bip38-decrypt",
+  "version": "1.0.2",
+  "description": "Decrypt and Verify a Bip38 Encrypted Private Key",
+  "main": "lib/bip38-decrypt.js",
+  "git": "https://github.com/Colu-platform/bip38-decrypt.git",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R xunit > test-reports.xml && istanbul report html"
+  },
+  "keywords": [
+    "Bip38",
+    "Bitcoin",
+    "Verify",
+    "Decrypt",
+    "Crypto"
+  ],
+  "author": "thehobbit85",
+  "license": "MIT",
+  "dependencies": {
+    "bip38": "^1.2.0",
+    "coinkey": "^1.3.0",
+    "coinstring": "^2.2.0",
+    "crypto-hashing": "^0.3.1"
+  }
+}
