@@ -15,7 +15,7 @@
     "Crypto"
   ],
   "author": "thehobbit85",
-  "license": "MIT",
+  "license": "https://www.colu.co/TOS",
   "dependencies": {
     "bip38": "^1.2.0",
     "coinkey": "^1.3.0",
